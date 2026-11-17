@@ -1,0 +1,6 @@
+// Apply only when explicitly building the test APK; leaves production manifests untouched.
+allprojects {
+    plugins.withId('com.android.application') {
+        android.defaultConfig.testInstrumentationRunner = 'com.shiri.anniversary.WidgetRenderHarness'
+    }
+}

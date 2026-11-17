@@ -1,0 +1,178 @@
+{
+  "product": "拾日",
+  "version": "1.0.0+1",
+  "flutter": "3.32.6",
+  "dart": "3.8.1",
+  "minimumPlatforms": {
+    "ios": "16",
+    "androidApi": 26
+  },
+  "fixedPhotoAssetsBundled": false,
+  "dartSourceSha256": "7055b7993fd465a4ab72cb2537a3beda61be9116e9e65d8868727f2c78ce206d",
+  "packages": [
+    {
+      "file": "shiri-debug.apk",
+      "type": "Android development-signed debug APK",
+      "bytes": 232198960,
+      "sha256": "9432e065a44f04945ebf8c08e114fe14b3fd534039aa55a457a5affb6f58a95e"
+    },
+    {
+      "file": "shiri-ios-unsigned.zip",
+      "type": "iOS full unsigned app; developer signing required",
+      "bytes": 84267414,
+      "sha256": "bbe2b60d721a671187b3725c40b8401c477b3d1859f03a6368dac6ab8a128c0f"
+    }
+  ],
+  "automatedTestsPassed": 75,
+  "iosSimulatorFlowPassed": true,
+  "androidSimulatorFlowPassed": true,
+  "realTwoPhoneAcceptance": "pending",
+  "buildRevision": "2026-11-16-source-han-manual-collection",
+  "builtAt": "2026-11-16T16:33:30.686922+08:00",
+  "dartSourceHashFormat": "SHA256 of sorted lib Dart files: relative path + NUL + file bytes",
+  "nativeSourceSha256": "bd65389fd81cba9807d151ae4929d12c6928b3fd763fc41b1479a0849bf69786",
+  "priorAutoAlbumVerification": {
+    "buildRevision": "2026-11-16-auto-album",
+    "dateEntryRegressionTests": {
+      "androidSimulator": 9,
+      "iosSimulator": 9
+    },
+    "dateFixNativeFlowResults": {
+      "android": "qa/auto-album-android/results.json",
+      "ios": "qa/auto-album-ios/results.json"
+    },
+    "automaticAlbumNativeVerified": {
+      "android": {
+        "completed": true,
+        "permission": "full",
+        "collected": 4,
+        "pending": 0,
+        "nativePages": [
+          2,
+          2
+        ],
+        "dates": [
+          "2018-06-18",
+          "2019-06-17",
+          "2019-06-18",
+          "2019-06-19"
+        ],
+        "archivePhotos": 7,
+        "repeatScanDeduplicated": true
+      },
+      "ios": {
+        "completed": true,
+        "permission": "full",
+        "collected": 4,
+        "pending": 0,
+        "nativePages": [
+          2,
+          2
+        ],
+        "dates": [
+          "2018-06-18",
+          "2019-06-17",
+          "2019-06-18",
+          "2019-06-19"
+        ],
+        "archivePhotos": 7,
+        "repeatScanDeduplicated": true
+      }
+    }
+  },
+  "nativeWidgetDateChecks": {
+    "android": "passed",
+    "ios": "passed",
+    "cases": [
+      "annual",
+      "one-time",
+      "leap-day",
+      "DST"
+    ]
+  },
+  "calendarDelivery": "System Calendar alerts require calendar permission and enabled Calendar notifications; no cloud calendar source is used.",
+  "iosSigning": "Unsigned arm64 app with WidgetKit extension; developer signing is required for an iPhone.",
+  "priorManagementVerification": {
+    "buildRevision": "2026-11-16-album-management",
+    "results": {
+      "android": "qa/management-android/results.json",
+      "ios": "qa/management-ios/results.json"
+    }
+  },
+  "uiResourceSha256": "55741274b120aacb21d8899a6891765557e0f9eb0d93d5c13153637b26ffc18f",
+  "fontAssets": {
+    "family": "Source Han Sans CN (思源黑体，Adobe 官方中国地区字形子集)",
+    "version": "2.005R",
+    "revision": "6c709ca72d3d7c46ab42ebecc1a26e7d69595a37",
+    "source": "https://github.com/adobe-fonts/source-han-sans",
+    "license": "SIL OFL 1.1",
+    "modified": false,
+    "files": [
+      {
+        "file": "assets/font/source_han_sans_cn_light.otf",
+        "upstreamPath": "SubsetOTF/CN/SourceHanSansCN-Light.otf",
+        "bytes": 8416432,
+        "sha256": "c406ec4c795fe71ec443a8a55570d7df53dea560ea93d4117eadab6e2b19680d",
+        "postScriptName": "SourceHanSansCN-Light",
+        "weight": 300,
+        "glyphs": 30926
+      },
+      {
+        "file": "assets/font/source_han_sans_cn_regular.otf",
+        "upstreamPath": "SubsetOTF/CN/SourceHanSansCN-Regular.otf",
+        "bytes": 8429224,
+        "sha256": "e2bc8a2e7f37474b774fff8db758681ece40bb6947a90d571bce9dd60671a8e4",
+        "postScriptName": "SourceHanSansCN-Regular",
+        "weight": 400,
+        "glyphs": 30926
+      },
+      {
+        "file": "assets/font/source_han_sans_cn_medium.otf",
+        "upstreamPath": "SubsetOTF/CN/SourceHanSansCN-Medium.otf",
+        "bytes": 8406556,
+        "sha256": "a94e558a2fe972bee4f46bce0843abff37063fd68c33f1e7d9058f6f09432b01",
+        "postScriptName": "SourceHanSansCN-Medium",
+        "weight": 500,
+        "glyphs": 30926
+      },
+      {
+        "file": "assets/font/source_han_sans_cn_bold.otf",
+        "upstreamPath": "SubsetOTF/CN/SourceHanSansCN-Bold.otf",
+        "bytes": 8569308,
+        "sha256": "62383707c086a32f3afd5e293f34c7eff64c7fea31f579fdc6cbe34d920519a6",
+        "postScriptName": "SourceHanSansCN-Bold",
+        "weight": 700,
+        "glyphs": 30926
+      },
+      {
+        "file": "assets/licenses/source_han_sans_OFL.txt",
+        "upstreamPath": "LICENSE.txt",
+        "bytes": 4463,
+        "sha256": "fcac737e761ec63dbfbdce11030a1780161920d80315edba9c8beff1c2bac5a2"
+      }
+    ]
+  },
+  "collectionPolicy": "One automatic attempt after each new anniversary is created. Later collection is explicit only, including after edits, restarts and permission changes.",
+  "albumPalette": {
+    "primaryText": "#3D474E",
+    "secondaryText": "#6E7880",
+    "actions": "#526D7C",
+    "divider": "#E7ECEF"
+  },
+  "fontCollectionNativeFlowResults": {
+    "android": "qa/font-collection-android/results.json",
+    "ios": "qa/font-collection-ios/results.json"
+  },
+  "nativeFontChecks": {
+    "androidWidgetSizes": [
+      "140x140",
+      "340x140",
+      "180x180",
+      "340x180"
+    ],
+    "androidFacesAndCountdown": "passed",
+    "appleCoreTextCJKAndLatin": "passed",
+    "iosWidgetFontsBundled": true
+  },
+  "publicationNote": "Existing development artifacts; package sizes and SHA256 and Dart source digest rechecked on 2026-11-17. Device QA records refer to local historical evidence."
+}

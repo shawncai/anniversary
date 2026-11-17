@@ -1,0 +1,37 @@
+name: anniversary
+description: Local-first anniversary photos and native home-screen widgets.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.8.0 <4.0.0'
+  flutter: '>=3.32.6'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  crypto: 3.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/licenses/source_han_sans_OFL.txt
+  fonts:
+    - family: SourceHanSansCN
+      fonts:
+        - asset: assets/font/source_han_sans_cn_light.otf
+          weight: 300
+        - asset: assets/font/source_han_sans_cn_regular.otf
+          weight: 400
+        - asset: assets/font/source_han_sans_cn_medium.otf
+          weight: 500
+        - asset: assets/font/source_han_sans_cn_bold.otf
+          weight: 700

@@ -1,0 +1,52 @@
+{
+  "family": "Source Han Sans CN (思源黑体，Adobe 官方中国地区字形子集)",
+  "version": "2.005R",
+  "revision": "6c709ca72d3d7c46ab42ebecc1a26e7d69595a37",
+  "source": "https://github.com/adobe-fonts/source-han-sans",
+  "license": "SIL OFL 1.1",
+  "modified": false,
+  "files": [
+    {
+      "file": "assets/font/source_han_sans_cn_light.otf",
+      "upstreamPath": "SubsetOTF/CN/SourceHanSansCN-Light.otf",
+      "bytes": 8416432,
+      "sha256": "c406ec4c795fe71ec443a8a55570d7df53dea560ea93d4117eadab6e2b19680d",
+      "postScriptName": "SourceHanSansCN-Light",
+      "weight": 300,
+      "glyphs": 30926
+    },
+    {
+      "file": "assets/font/source_han_sans_cn_regular.otf",
+      "upstreamPath": "SubsetOTF/CN/SourceHanSansCN-Regular.otf",
+      "bytes": 8429224,
+      "sha256": "e2bc8a2e7f37474b774fff8db758681ece40bb6947a90d571bce9dd60671a8e4",
+      "postScriptName": "SourceHanSansCN-Regular",
+      "weight": 400,
+      "glyphs": 30926
+    },
+    {
+      "file": "assets/font/source_han_sans_cn_medium.otf",
+      "upstreamPath": "SubsetOTF/CN/SourceHanSansCN-Medium.otf",
+      "bytes": 8406556,
+      "sha256": "a94e558a2fe972bee4f46bce0843abff37063fd68c33f1e7d9058f6f09432b01",
+      "postScriptName": "SourceHanSansCN-Medium",
+      "weight": 500,
+      "glyphs": 30926
+    },
+    {
+      "file": "assets/font/source_han_sans_cn_bold.otf",
+      "upstreamPath": "SubsetOTF/CN/SourceHanSansCN-Bold.otf",
+      "bytes": 8569308,
+      "sha256": "62383707c086a32f3afd5e293f34c7eff64c7fea31f579fdc6cbe34d920519a6",
+      "postScriptName": "SourceHanSansCN-Bold",
+      "weight": 700,
+      "glyphs": 30926
+    },
+    {
+      "file": "assets/licenses/source_han_sans_OFL.txt",
+      "upstreamPath": "LICENSE.txt",
+      "bytes": 4463,
+      "sha256": "fcac737e761ec63dbfbdce11030a1780161920d80315edba9c8beff1c2bac5a2"
+    }
+  ]
+}

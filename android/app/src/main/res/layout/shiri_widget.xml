@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#FFFFFF">
+    <ImageView android:id="@+id/widget_image" android:layout_width="match_parent" android:layout_height="match_parent"
+        android:scaleType="centerCrop" android:contentDescription="@null" />
+    <FrameLayout android:id="@+id/widget_scrim" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+        android:orientation="vertical" android:padding="16dp">
+        <TextView android:includeFontPadding="false" android:id="@+id/widget_title" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:textSize="15sp" android:fontFamily="@font/source_han_sans_cn_medium" android:maxLines="1" android:ellipsize="end" />
+        <TextView android:includeFontPadding="false" android:id="@+id/widget_days" android:layout_width="match_parent" android:layout_height="0dp"
+            android:layout_weight="1" android:gravity="center_vertical" android:textSize="32sp"
+            android:autoSizeTextType="uniform" android:autoSizeMinTextSize="14sp"
+            android:autoSizeMaxTextSize="38sp" android:autoSizeStepGranularity="1sp"
+            android:fontFamily="@font/source_han_sans_cn_light" android:maxLines="1" android:ellipsize="end" />
+        <TextView android:includeFontPadding="false" android:id="@+id/widget_next" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:textSize="12sp" android:fontFamily="@font/source_han_sans_cn_regular" android:maxLines="1" />
+        <TextView android:includeFontPadding="false" android:id="@+id/widget_elapsed" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:textSize="12sp" android:layout_marginTop="4dp" android:fontFamily="@font/source_han_sans_cn_regular" android:maxLines="1" />
+    </LinearLayout>
+</FrameLayout>
